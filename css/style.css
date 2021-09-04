@@ -14,6 +14,15 @@ header {
   justify-content: space-between;
 
 }
+.logo-link {
+  transition: opacity 0.4s ease;
+}
+.logo-link:hover {
+  opacity: 0.8;
+}
+.logo-link:active {
+  opacity: 0.6;
+}
 .right-navbar {
   display: flex;
   align-items: center;
@@ -31,15 +40,28 @@ header {
   font-weight: 500;
   font-size: 13px;
   letter-spacing: 1px;
+  transition: color 0.4s ease,
+   opacity 0.4s ease;
+}
+.nav-link .nav-item a:hover {
+  color: #FF7500;
+}
+.nav-link .nav-item a:active {
+  opacity: 0.6;
 }
 .primary-btn {
   background: #FF7500;
-  opacity: 0.6;
   border-radius: 4px;
   height: 39px;
   width: 155px;
   text-align: center;
-
+  transition: opacity 0.4s ease;
+}
+.primary-btn:hover {
+  opacity: 0.8;
+}
+.primary-btn:active {
+  opacity: 0.6;
 }
 .btn {
   font-weight: bold;
@@ -170,6 +192,15 @@ span {
 .media-icons ul {
   display: flex;
 }
+.media-icons ul li a {
+  color: #252420;
+}
+.media-icons a:hover {
+  color: #FF7500;
+}
+.media-icons a:active {
+  opacity: 0.6;
+}
 .footer-line {
   width: 1100px;
   height: 2px;
@@ -188,4 +219,12 @@ span {
   line-height: 19px;
   color: #252420;
   text-decoration: none;
+  transition: color 0.4s ease,
+   opacity 0.4s ease;
+}
+.menu-links:hover {
+  color: #FF7500;
+}
+.menu-links:active {
+  opacity: 0.6;
 }
