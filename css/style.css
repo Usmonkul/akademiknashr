@@ -9,6 +9,17 @@ header {
   border-top: 5px solid #ff7500;
   top: 0;
   left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.right-navbar {
+  display: flex;
+  align-items: center;
+}
+.nav-link {
+  display: flex;
 }
 .nav-link .nav-item {
   list-style: none;
@@ -37,6 +48,9 @@ header {
 }
 .hero-section {
   background-color: #252420;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
 .hero-textbox {
@@ -65,7 +79,7 @@ header {
 }
 /* features section */
 .feature-section {
-  height: 936px;
+ /*  height: 936px; */
 }
 .feature-section h2 {
   height: 172px;
@@ -79,6 +93,8 @@ header {
 .features {
   width: 1100px;
   height: 245px;
+  display: flex;
+  justify-content: space-between;
 }
 .feature-item {
   width: 340px;
@@ -112,6 +128,9 @@ header {
   width: 1100px;
   background: #252420;
   border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .promo-text {
   width: 440px;
@@ -140,8 +159,16 @@ span {
 .site-footer {
   background-color: #f8f8f8;
 }
+.footer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .site-footer ul {
   list-style: none;
+}
+.media-icons ul {
+  display: flex;
 }
 .footer-line {
   width: 1100px;
@@ -150,6 +177,8 @@ span {
 }
 .footer-links {
   width: 1100px;
+  display: flex;
+  justify-content: space-evenly;
 }
 .menu {
   width: 224px;
