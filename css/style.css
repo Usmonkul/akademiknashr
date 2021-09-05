@@ -14,10 +14,14 @@ header {
   border-top: 5px solid #ff7500;
   top: 0;
   left: 0;
+  width: 1440px;
+}
+.headir-container {
+  width: 1100px;
+  padding: 16px 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 .logo-link {
   transition: opacity 0.4s ease;
@@ -34,6 +38,7 @@ header {
 }
 .nav-link {
   display: flex;
+  padding: 0;
 }
 .nav-link .nav-item {
   list-style: none;
@@ -54,40 +59,43 @@ header {
 .nav-link .nav-item a:active {
   opacity: 0.6;
 }
-.primary-btn {
-  background: #FF7500;
-  border-radius: 4px;
-  height: 39px;
-  width: 155px;
-  text-align: center;
-  transition: opacity 0.4s ease;
-}
-.primary-btn:hover {
-  opacity: 0.8;
-}
-.primary-btn:active {
-  opacity: 0.6;
-}
+
 .btn {
   font-weight: bold;
   color: #fff;
   text-decoration: none;
+  background: #FF7500;
+  border-radius: 4px;
+  padding: 12px 24px;
+  display: inline-block;
+  text-align: center;
+  transition: opacity 0.4s ease;
 }
+.btn:hover {
+  opacity: 0.8;
+}
+.btn:active {
+  opacity: 0.6;
+}
+
 .hero-section {
   background-color: #252420;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 80px 0px;
 
 }
 .hero-textbox {
   width: 387px;
   color: #FFFFFF;
+
 }
 .orange-line {
   width: 80px;
   height: 3px;
   background-color: #ff7500;
+  border: none;
 }
 .hero-textbox h2 {
   font-family: 'Roboto Condensed', sans-serif;
@@ -107,6 +115,8 @@ header {
 /* features section */
 .feature-section {
  /*  height: 936px; */
+  padding-top: 210px;
+  padding-bottom: 210px;
 }
 .feature-section h2 {
   height: 172px;
@@ -120,6 +130,7 @@ header {
 .features {
   width: 1100px;
   height: 245px;
+  padding: 0;
   display: flex;
   justify-content: space-between;
 }
@@ -131,6 +142,11 @@ header {
   width: 100px;
   height: 100px;
   background-color: rgba(255, 117, 0, 0.2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 .feature-text {
   width: 340px;
@@ -181,10 +197,13 @@ span {
   width: 440px;
   height: 440px;
   object-fit: cover;
+  border-radius: 12px;
 }
 /* footer */
 .site-footer {
   background-color: #f8f8f8;
+  padding-top: 56px;
+  padding-bottom: 56px;
 }
 .footer-header {
   display: flex;
@@ -207,9 +226,10 @@ span {
   opacity: 0.6;
 }
 .footer-line {
-  width: 1100px;
   height: 2px;
-  background: rgba(37, 36, 32, 0.5)
+  background: rgba(37, 36, 32, 0.5);
+  border: none;
+
 }
 .footer-links {
   width: 1100px;
@@ -218,6 +238,7 @@ span {
 }
 .menu {
   width: 224px;
+  padding: 0;
 
 }
 .menu-links {
